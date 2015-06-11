@@ -15,6 +15,7 @@ sub new {
     $class = ref $class || $class;
     my $self = {
         keys => {
+            'notcopy'   => '!=',
             'copy'   => '=',
             'lt'     => '<',
             'gt'     => '>',
